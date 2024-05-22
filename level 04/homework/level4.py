@@ -1,0 +1,143 @@
+from turtle import*
+
+speed(15)
+width(6)
+
+penup()
+goto(0, -200)
+pendown()
+
+#making a castle
+
+forward(350)
+left(90)
+forward(100)
+left(90)
+forward(350)
+left(90)
+forward(100)
+penup()
+goto(0, -100)
+pendown()
+left(180)
+forward(125)
+right(90)
+forward(60)
+right(90)
+forward(125)
+left(90)
+forward(80)
+left(90)
+forward(125)
+right(90)
+forward(60)
+right(90)
+forward(125)
+left(90)
+forward(80)
+left(90)
+forward(125)
+right(90)
+forward(60)
+right(90)
+forward(125)
+#making a gate
+penup()
+goto(130, -200)
+pendown()
+left(180)
+forward(50)
+right(30)
+forward(30)
+right(95)
+forward(35)
+right(55)
+forward(55)
+
+#drawing king 
+
+penup()
+goto(-150, -150)
+pendown()
+#drawing a head
+circle(10)
+penup()
+goto(-140, -165)
+pendown()
+#drawing a torso
+forward(40)
+ #drawing legs
+left(30)
+forward(30)
+left(180)
+forward(30)
+left(120)
+forward(30)
+#drawing arms
+penup()
+goto(-140, -180)
+pendown()
+left(100)
+forward(20)
+right(180)
+forward(20)
+left(50)
+forward(20)
+
+#drawing queen
+
+penup()
+goto(-200, -150)
+pendown()
+
+#drawing a head
+circle(10)
+penup()
+goto(-197, -168)
+pendown()
+left(60)
+
+#drawing a torso
+forward(40)
+
+ #drawing legs
+left(30)
+forward(30)
+left(180)
+forward(30)
+left(120)
+forward(30)
+
+#drawing arms
+penup()
+goto(-197, -172)
+pendown()
+left(100)
+forward(20)
+right(180)
+forward(20)
+left(50)
+forward(20)
+
+# making a flag
+penup()
+goto(158, 30)
+pendown()
+right(90)
+left(90)
+right(120)
+forward(150)
+right(90)
+forward(140)
+right(90)
+forward(80)
+right(90)
+forward(140)
+right(90)
+forward(30)
+penup()
+goto(165, 140)
+pendown()
+left(90)
+color("black")
+write("GOA", font=("Arial", 24, "bold"))
