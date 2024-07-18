@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 60px;
+    padding: 20px;
+}
+h3{
+    font-family: serif;
+    font-size: 25px;
+    padding: 15px;
+    border: none;
+}
+h5{
+    border:none;
+    padding: 0%;
+    margin: 0%;
+    color: #000;
+    font-size: 20px;
+}
+img{
+    border-radius: 25px;
+    border: none;
+    margin-right: 50px;
+}
