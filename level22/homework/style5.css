@@ -1,0 +1,16 @@
+img{
+   border: 10px solid #000;
+}
+.gorgocell{
+    margin-left: 500px;
+    margin-bottom: 1000px;
+}
+.uno{
+    width: 400px;
+    height: 50px;
+}
+button{
+    background-color: greenyellow;
+    padding: 10px;
+    font-size: 20px;
+}
