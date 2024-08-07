@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details Form</title>
+</head>
+<body>
+    <h2>Personal Details</h2>
+    <form>
+        <table>
+            <tr>
+                <td><label for="salutation">Salutation:</label></td>
+                <td>
+                    <select id="salutation" name="salutation">
+                        <option value="none">--None--</option>
+                        <option value="mr">Mr.</option>
+                        <option value="ms">Ms.</option>
+                        <option value="mrs">Mrs.</option>
+                        <option value="dr">Dr.</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="first-name">First name:</label></td>
+                <td><input type="text" id="first-name" name="first-name"></td>
+            </tr>
+            <tr>
+                <td><label for="last-name">Last name:</label></td>
+                <td><input type="text" id="last-name" name="last-name"></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><textarea id="address" name="address"></textarea></td>
+            </tr>
+            <tr>
+                    <input type="submit" value="Submit">
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+    

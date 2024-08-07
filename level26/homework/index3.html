@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan Form</title>
+</head>
+<body>
+    <center>
+    <form>
+        <table>
+            <tr>
+                <td><label for="scan-for">Scan for:</label></td>
+                <td>
+                    <select id="scan-for" name="scan-for">
+                        <option value="active-directory">Active Directory</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="fqdn">Fully-qualified domain name:</label></td>
+                <td><input type="text" id="fqdn" name="fqdn" value="AD.lab.company.com"></td>
+            </tr>
+            <tr>
+                <td><label for="organizational-unit">Organizational Unit:</label></td>
+                <td><input type="text" id="organizational-unit" name="organizational-unit" value="Lab/Engineering/Company"></td>
+            </tr>
+            <tr>
+                <td><label for="domain-controller">Domain controller:</label></td>
+                <td><input type="text" id="domain-controller" name="domain-controller" value="myDomainController"></td>
+            </tr>
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" id="username" name="username" value="Administrator"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" value="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" value="Add to Scan">
+                    <input type="button" value="Exclude from Scan">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>
