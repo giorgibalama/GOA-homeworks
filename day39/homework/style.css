@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.rgb-section {
+    background-color: rgb(255, 200, 200);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.rgb-section h2 {
+    color: rgb(255, 0, 0);
+}
+
+/* HEX Section Styles */
+.hex-section {
+    background-color: #c0ffee; 
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.hex-section h2 {
+    color: #00ff00; 
+}
+
+
+.hsl-section {
+    background-color: hsl(200, 100%, 85%); 
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.hsl-section h2 {
+    color: hsl(200, 100%, 30%); 
+}

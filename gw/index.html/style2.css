@@ -1,0 +1,44 @@
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-container {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-container button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+.form-container button:hover {
+    background-color: #0056b3;
+}
+body{
+    background-image: url("https://cdn.discordapp.com/attachments/1267500012460441651/1286752715472506971/pexels-bri-schneiter-28802-346529.jpg?ex=66ef0d5a&is=66edbbda&hm=169128858b519d89d98493066224264c1f10438d438b28d229b25dc620dc78f2&");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}   
