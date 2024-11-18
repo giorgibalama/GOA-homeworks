@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+h1 {
+    padding-left: 650px;
+
+}
+body{
+    font-family: "Bai Jamjuree", sans-serif;
+    text-align: center;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.first-logo {
+    padding-left: 425px;
+
+}
+
+.first-paragraph {
+    padding-left: 550px;
+    color: gray;
+}
+
+
+
+.btn1 {
+    padding: 10px 20px;
+    background-color: #7FFFD4;
+    border-radius: 30px;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+
+.btn2 {
+    padding: 10px 20px;
+    background-color: #0096FF;
+    border-radius: 30px;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+
+.btn {
+    padding-left: 700px;
+    ;
+    
+}
+
+
+
+.photo {
+    width: 400px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 100px;
+
+
+}
+
+.snippets {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 200px;
+    padding-top: 100px;  
+
+}
+
+.access{
+    text-align: center;
+    margin-left: 200px;
+}
+
+.workflow{
+    text-align: center;
+    margin-left: 200px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.clipboard{
+    text-align: center;
+}
+
+.everything{
+    padding-right: 300px;
+
+}
+
+strong{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.three{
+    margin-bottom: 300px;
+}
+
+
+.first-image{
+    padding-top: 200px;
+   
+}
+
+
+    
+
+.bai-jamjuree-extralight {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+.start{
+    padding-right: 400px;
+}
+
+
+.last{
+padding-right: 400px;
+
+}
+
+
+.last_logo{
+    text-align: left;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.last_logo div{
+    padding-left: 125px;
+ 
+}
+
+.idk{
+    text-align: left;
+    padding-left:500px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #888;
+}
+
+.links a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.links a:hover {
+    color: #007bff;
+}
+
+.social-media a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+
+
+
+.fab {
+    font-size: 20px;
+}
