@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.red {
+    background-color: red;
+    transform: rotate(0deg);
+}
+
+.blue {
+    background-color: blue;
+    transform: scale(1);
+}
+
+.green {
+    background-color: green;
+    transform: translateX(0);
+}
+
+.yellow {
+    background-color: yellow;
+    transform: skew(0deg);
+}
+
+.red:hover {
+    background-color: #ff8080;
+    transform: rotate(45deg);
+}
+
+.blue:hover {
+    background-color: #8080ff;
+    transform: scale(1.2);
+}
+
+.green:hover {
+    background-color: #80ff80;
+    transform: translateX(50px);
+}
+
+.yellow:hover {
+    background-color: #ffff80;
+    transform: skew(20deg);
+}
