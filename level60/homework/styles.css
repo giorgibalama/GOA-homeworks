@@ -1,0 +1,45 @@
+
+
+div{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    transition-duration: 3s;
+}
+
+div:hover{
+width: 500px;
+
+}
+
+button{
+    background-color: #41980A;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    transition-duration: 3s;
+}
+
+.animated-button:hover {
+    animation: buttonAnimation 3s ease-in-out forwards;
+  }
+
+  @keyframes buttonAnimation {
+    0% {
+      transform: rotate(0deg);
+      background-color: #3498db;
+    }
+    25% {
+      transform: rotate(25deg);
+      background-color: #e74c3c;
+    }
+    50% {
+      transform: translateX(300px);
+      background-color: #2ecc71;
+    }
+    75% {
+      transform: rotate(360deg) 
+      
+    }
+   
+  }
