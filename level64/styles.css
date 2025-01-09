@@ -5,7 +5,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    font-family: sans-serif; /* Add a font for better readability */
+    font-family: sans-serif; 
 }
 
 .profile-card {
